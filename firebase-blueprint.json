@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Portfolio": {
+      "title": "Portfolio",
+      "description": "Portofolio data storing profile, projects, skills, experiences, articles, and UI settings",
+      "type": "object",
+      "properties": {
+        "profile": {
+          "type": "object",
+          "description": "User profile info"
+        },
+        "skills": {
+          "type": "array",
+          "description": "Skills list"
+        },
+        "projects": {
+          "type": "array",
+          "description": "Projects list"
+        },
+        "experiences": {
+          "type": "array",
+          "description": "Experiences list"
+        },
+        "articles": {
+          "type": "array",
+          "description": "Articles list"
+        },
+        "uiSettings": {
+          "type": "object",
+          "description": "UI settings"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of last update"
+        }
+      },
+      "required": ["profile", "skills", "projects", "experiences", "articles", "uiSettings"]
+    }
+  },
+  "firestore": {
+    "portfolio/main": {
+      "entity": "Portfolio",
+      "description": "Main portfolio dataset"
+    }
+  }
+}

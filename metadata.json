@@ -1,0 +1,6 @@
+{
+  "name": "Web Portofolio Mahasiswa",
+  "description": "Website portofolio interaktif dan modern untuk mahasiswa dan profesional dengan 8 bagian utama, fitur Live Edit Mode, Filter Proyek, Reader Artikel, dan Export CV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
